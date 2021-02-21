@@ -1,0 +1,75 @@
+
+body{
+    background-image: url(/backgrounds/haze.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    margin-top: 25vh;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.searchbox{
+    width: 40vw;
+    min-width: 400px;
+    height: 70px;
+    appearance: none;
+    outline: 0;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 35px 0px 0px 35px;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.1), -10px 0px 10px -10px rgba(0, 0, 0, 0.1), 0px -10px 10px -10px rgba(0, 0, 0, 0.1) ;
+    /* border-top: 1px solid rgba(255, 255, 255, 1); */
+    padding-left: 30px;
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    backdrop-filter: blur(10px);
+}
+
+#button{
+    
+    height: 70px;
+    width: 100px;
+    border-radius: 0px 35px 35px 0px;
+    border: 0;
+    outline: 0;
+}
+
+.results{
+    width: 60vw;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.child-box{
+    border-radius: 15px;
+    padding: 50px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+    /* border: 2px solid yellowgreen; */
+    margin: 30px;
+    /* background-color: chartreuse; */
+    backdrop-filter: blur(20px);
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+}
+
+/* .aqi{
+    padding: 50px;
+    border: 2px solid royalblue;
+    margin: 20px;
+} */

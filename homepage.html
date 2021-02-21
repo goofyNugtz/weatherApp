@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather.in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <input id="city-name" class="searchbox" name="place" type="text" placeholder="Enter city name here">
+            <input id="button" type="submit" value="Search">
+        </div>
+        <div class="results">
+            <div class="temperature child-box">
+                <div id="current-temp">Temperature: 23.4&deg;C</div>
+                <div id="min-temp">Minimum: 19.2&deg;C</div>
+                <div id="max-temp">Maximum: 24.1&deg;C</div>
+            </div>
+            <div class="weather child-box">
+                <div id="weather-con">Haze</div>
+                <div id="humidity">Humidity: 30%</div>
+                <div id="wind-speed">Wind Speed: 12.5 km/h</div>
+            </div>
+            <!-- <div class="aqi">
+                AQI
+            </div> -->
+        </div>
+    </div>
+<script src="/app.js"></script>
+</body>
+
+</html>
